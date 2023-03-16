@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style/style.css">
+  <link rel="stylesheet" href="./assets/style/media.css">
+  <title>NFT marketplace</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__logo">
+      <a href="./index.html">
+        <img src="./assets/img/logo.png" alt="logo">
+      </a>
+    </div>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="ph"><a class="header__link" href="#!">Marketplace</a></li>
+        <li class="ph"><a class="header__link ph" href="#!">Rankings</a></li>
+        <li class="ph"><a class="header__link ph" href="#!">Connect a wallet</a></li>
+        <li class="btn-3"><a class="header__link" href="#!">
+            <img class="btn__icon" src="./assets/img/icons/user.svg" alt="user">
+            Sign Up
+          </a></li>
+      </ul>
+      <div class="header__burger">
+        <a href="#!">
+          <img src="./assets/img/icons/list.svg" alt="list">
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="hero pd80">
+      <div class="container">
+        <div class="hero__row">
+          <div class="hero__info">
+            <h1 class="h1">Discover digital art & Collect NFTs</h1>
+            <p class="body-text">NFT marketplace UI created with Animal for Figma. Collect, buy and sell art from more
+              than 20k NFT artists.</p>
+            <div class="hero__card-mb bg-second radius">
+              <div class="hero__card-banner">
+                <img class="card__banner" src="./assets/img/hero/01.jpg" alt="banner">
+              </div>
+              <div class="hero__card-info">
+                <h5 class="h5">Space Walking</h5>
+                <div class="hero__card-author">
+                  <img class="ava" src="./assets/img/avatars/avatar-14.png" alt="avatar">
+                  <span>Animakid</span>
+                </div>
+              </div>
+            </div>
+            <div class="hero__btn btn">
+              <a href="#!">
+                <img class="btn__icon" src="./assets/img/icons/rocketLaunch.svg" alt="icon">
+                Get Started
+              </a>
+            </div>
+            <div class="hero__additional">
+              <div class="hero__additional-item">
+                <h4 class="h4">240k+</h4>
+                <p>Total Sale</p>
+              </div>
+              <div class="hero__additional-item">
+                <h4 class="h4">100k+</h4>
+                <p>Auctions</p>
+              </div>
+              <div class="hero__additional-item">
+                <h4 class="h4">240k+</h4>
+                <p>Artists</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero__card bg-second radius">
+            <div class="hero__card-banner">
+              <img class="card__banner" src="./assets/img/hero/01.jpg" alt="banner">
+            </div>
+            <div class="hero__card-info">
+              <h5 class="h5">Space Walking</h5>
+              <div class="author">
+                <img class="ava" src="./assets/img/avatars/avatar-14.png" alt="avatar">
+                <span>Animakid</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection pd80">
+      <div class="container">
+        <div class="collection__headline headline mb60">
+          <h3 class="h3">Trending Collection</h3>
+          <p class="body-text">Checkout our weekly updated trending collection.</p>
+        </div>
+        <div class="collection__cards cards">
+          <div class="collection__card">
+            <div class="collection__banners">
+              <img class="collection__banner-med radius ph" src="./assets/img/collection/01.jpg" alt="banner">
+              <img class="collection__banner-small radius ph" src="./assets/img/collection/02.jpg" alt="banner">
+              <img class="collection__banner-small radius ph" src="./assets/img/collection/03.jpg" alt="banner">
+              <h6 class="collection__banner-more radius ph h6">1025+</h6>
+            </div>
+            <h5 class="h5">DSGN Animals</h5>
+            <div class="author">
+              <img class="ava" src="./assets/img/avatars/avatar-06.png" alt="card avatar">
+              <span>MrFox</span>
+            </div>
+          </div>
+          <div class="collection__card mb-none">
+            <div class="collection__banners">
+              <img class="collection__banner-med ph radius" src="./assets/img/collection/04.jpg" alt="banner">
+              <img class="collection__banner-small ph radius" src="./assets/img/collection/05.jpg" alt="banner">
+              <img class="collection__banner-small ph radius" src="./assets/img/collection/06.jpg" alt="banner">
+              <h6 class="collection__banner-more ph radius h6">1025+</h6>
+            </div>
+            <h5 class="h5">Magic Mushrooms</h5>
+            <div class="author">
+              <img class="ava" src="./assets/img/avatars/avatar-07.png" alt="card avatar">
+              <span>Shroomie</span>
+            </div>
+          </div>
+          <div class="collection__card tab-none">
+            <div class="collection__banners">
+              <img class="collection__banner-med ph radius" src="./assets/img/collection/07.jpg" alt="banner">
+              <img class="collection__banner-small ph radius" src="./assets/img/collection/08.jpg" alt="banner">
+              <img class="collection__banner-small ph radius" src="./assets/img/collection/09.jpg" alt="banner">
+              <h6 class="collection__banner-more ph radius h6">1025+</h6>
+            </div>
+            <h5 class="h5">Disco Machines</h5>
+            <div class="author">
+              <img class="ava" src="./assets/img/avatars/avatar-12.png" alt="card avatar">
+              <span>BeKind2Robots</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="creators pd80">
+      <div class="container">
+        <div class="creators__top row mb60">
+          <div class="creators__headline headline">
+            <h3 class="h3">Top creators</h3>
+            <p class="body-text">Checkout Top Rated Creators on the NFT Marketplace</p>
+          </div>
+          <div class="creators__btn btn-2">
+            <a href="#!">
+              <img class="btn__icon" src="./assets/img/icons/rocketLaunch.svg" alt="icon">
+              View Rankings
+            </a>
+          </div>
+        </div>
+        <div class="creator__cards cards">
+          <div class="creator__card ph bg-second radius">
+            <p class="creator__card-rank space-mono radius">1</p>
+            <div class="creator__card-ava">
+              <img src="./assets/img/avatars/avatar-01.png" alt="avatar">
+            </div>
+            <div class="creator__card-info">
+              <h5 class="h5">Keepitreal</h5>
+              <span class="gy-text">Total Sales:</span>
+              <span class="space-mono">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="creator__card ph bg-second radius">
+            <p class="creator__card-rank space-mono radius">2</p>
+            <div class="creator__card-ava">
+              <img src="./assets/img/avatars/avatar-02.png" alt="avatar">
+            </div>
+            <div class="creator__card-info">
+              <h5 class="h5">DigiLab</h5>
+              <span class="gy-text">Total Sales:</span>
+              <span class="space-mono">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="creator__card ph bg-second radius">
+            <p class="creator__card-rank space-mono radius">3</p>
+            <div class="creator__card-ava">
+              <img src="./assets/img/avatars/avatar-03.png" alt="avatar">
+            </div>
+            <div class="creator__card-info">
+              <h5 class="h5">GravityOne</h5>
+              <span class="gy-text">Total Sales:</span>
+              <span class="space-mono">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="creator__card ph bg-second radius">
+            <p class="creator__card-rank space-mono radius">4</p>
+            <div class="creator__card-ava">
+              <img src="./assets/img/avatars/avatar-04.png" alt="avatar">
+            </div>
+            <div class="creator__card-info">
+              <h5 class="h5">Juanie</h5>
+              <span class="gy-text">Total Sales:</span>
+              <span class="space-mono">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="creator__card ph bg-second radius">
+            <p class="creator__card-rank space-mono radius">5</p>
+            <div class="creator__card-ava">
+              <img src="./assets/img/avatars/avatar-05.png" alt="avatar">
+            </div>
+            <div class="creator__card-info">
+              <h5 class="h5">BlueWhale</h5>
+              <span class="gy-text">Total Sales:</span>
+              <span class="space-mono">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="creator__card ph bg-second radius mb-none">
+            <p class="creator__card-rank space-mono radius">6</p>
+            <div class="creator__card-ava">
+              <img src="./assets/img/avatars/avatar-06.png" alt="avatar">
+            </div>
+            <div class="creator__card-info">
+              <h5 class="h5">mr fox</h5>
+              <span class="gy-text">Total Sales:</span>
+              <span class="space-mono">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="creator__card ph bg-second radius tab-none">
+            <p class="creator__card-rank space-mono radius">7</p>
+            <div class="creator__card-ava">
+              <img src="./assets/img/avatars/avatar-07.png" alt="avatar">
+            </div>
+            <div class="creator__card-info">
+              <h5 class="h5">Shroomie</h5>
+              <span class="gy-text">Total Sales:</span>
+              <span class="space-mono">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="creator__card ph bg-second radius tab-none">
+            <p class="creator__card-rank space-mono radius">8</p>
+            <div class="creator__card-ava">
+              <img src="./assets/img/avatars/avatar-08.png" alt="avatar">
+            </div>
+            <div class="creator__card-info">
+              <h5 class="h5">Robotica</h5>
+              <span class="gy-text">Total Sales:</span>
+              <span class="space-mono">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="creator__card ph bg-second radius tab-none">
+            <p class="creator__card-rank space-mono radius">9</p>
+            <div class="creator__card-ava">
+              <img src="./assets/img/avatars/avatar-09.png" alt="avatar">
+            </div>
+            <div class="creator__card-info">
+              <h5 class="h5">RustyRobot</h5>
+              <span class="gy-text">Total Sales:</span>
+              <span class="space-mono">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="creator__card ph bg-second radius tab-none">
+            <p class="creator__card-rank space-mono radius">10</p>
+            <div class="creator__card-ava">
+              <img src="./assets/img/avatars/avatar-14.png" alt="avatar">
+            </div>
+            <div class="creator__card-info">
+              <h5 class="h5">Animakid</h5>
+              <span class="gy-text">Total Sales:</span>
+              <span class="space-mono">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="creator__card ph bg-second radius tab-none">
+            <p class="creator__card-rank space-mono radius">11</p>
+            <div class="creator__card-ava">
+              <img src="./assets/img/avatars/avatar-15.png" alt="avatar">
+            </div>
+            <div class="creator__card-info">
+              <h5 class="h5">Dotgu</h5>
+              <span class="gy-text">Total Sales:</span>
+              <span class="space-mono">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="creator__card ph bg-second radius tab-none">
+            <p class="creator__card-rank space-mono radius">12</p>
+            <div class="creator__card-ava">
+              <img src="./assets/img/avatars/avatar-17.png" alt="avatar">
+            </div>
+            <div class="creator__card-info">
+              <h5 class="h5">Ghiblier</h5>
+              <span class="gy-text">Total Sales:</span>
+              <span class="space-mono">34.53 ETH</span>
+            </div>
+          </div>
+        </div>
+        <div class="creators__btn-mb btn-2">
+          <a href="#!">
+            <img class="btn__icon" src="./assets/img/icons/rocketLaunch.svg" alt="icon">
+            View Rankings
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories pd80">
+      <div class="container">
+        <h3 class="h3 mb60">Browse Categories</h3>
+        <div class="category__cards cards">
+          <div class="category__card ph bg-second radius">
+            <div class="category__card-banner">
+              <img class="card__banner" src="./assets/img/categories/images/01.jpg" alt="banner">
+            </div>
+            <h5 class="category__title h5">Art</h5>
+          </div>
+          <div class="category__card ph bg-second radius">
+            <div class="category__card-banner">
+              <img class="card__banner" src="./assets/img/categories/images/02.jpg" alt="banner">
+            </div>
+            <h5 class="category__title h5">Collectibles</h5>
+          </div>
+          <div class="category__card ph bg-second radius">
+            <div class="category__card-banner">
+              <img class="card__banner" src="./assets/img/categories/images/03.jpg" alt="banner">
+            </div>
+            <h5 class="category__title h5">Music</h5>
+          </div>
+          <div class="category__card ph bg-second radius">
+            <div class="category__card-banner">
+              <img class="card__banner" src="./assets/img/categories/images/04.jpg" alt="banner">
+            </div>
+            <h5 class="category__title h5">Photography</h5>
+          </div>
+          <div class="category__card ph bg-second radius">
+            <div class="category__card-banner">
+              <img class="card__banner" src="./assets/img/categories/images/05.jpg" alt="banner">
+            </div>
+            <h5 class="category__title h5">Video</h5>
+          </div>
+          <div class="category__card ph bg-second radius">
+            <div class="category__card-banner">
+              <img class="card__banner" src="./assets/img/categories/images/06.jpg" alt="banner">
+            </div>
+            <h5 class="category__title h5">Utility</h5>
+          </div>
+          <div class="category__card ph bg-second radius">
+            <div class="category__card-banner">
+              <img class="card__banner" src="./assets/img/categories/images/07.jpg" alt="banner">
+            </div>
+            <h5 class="category__title h5">Sport</h5>
+          </div>
+          <div class="category__card ph bg-second radius">
+            <div class="category__card-banner">
+              <img class="card__banner" src="./assets/img/categories/images/08.jpg" alt="banner">
+            </div>
+            <h5 class="category__title h5">Worlds</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="discover pd80">
+      <div class="container">
+        <div class="discover__top row mb60">
+          <div class="headline">
+            <h3 class="h3">Discover More NFTs</h3>
+            <p class="body-text">Explore new trending NFTs</p>
+          </div>
+          <div class="discover__btn btn-2 mb-none">
+            <a href="#!">
+              <img class="btn__icon" src="./assets/img/icons/eye.svg" alt="icon">
+              See All
+            </a>
+          </div>
+        </div>
+        <div class="discover__cards cards">
+          <div class="card">
+            <div class="discover__banner">
+              <img class="card__banner" src="./assets/img/discover/01.jpg" alt="banner">
+            </div>
+            <div class="card__info">
+              <h5 class="card__title h5">Distant Galaxy</h5>
+              <div class="card__author">
+                <img class="ava" src="./assets/img/avatars/avatar-16.png" alt="avatar">
+                <span class="space-mono">MoonDancer</span>
+              </div>
+              <div class="card__row">
+                <div class="card__price">
+                  <span class="caption gy-text">Price</span>
+                  <span class="space-mono">1.63 ETH</span>
+                </div>
+                <div class="card__bid">
+                  <span class="caption gy-text">Highest Bid</span>
+                  <span class="space-mono">0.33 ETH</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card tab-none">
+            <div class="discover__banner">
+              <img class="card__banner" src="./assets/img/discover/02.jpg" alt="banner">
+            </div>
+            <div class="card__info">
+              <h5 class="card__title h5">Life On Edena</h5>
+              <div class="card__author">
+                <img class="ava" src="./assets/img/avatars/avatar-10.png" alt="avatar">
+                <span class="space-mono">NebulaKid</span>
+              </div>
+              <div class="card__row">
+                <div class="card__price">
+                  <span class="caption gy-text">Price</span>
+                  <span class="space-mono">1.63 ETH</span>
+                </div>
+                <div class="card__bid">
+                  <span class="caption gy-text">Highest Bid</span>
+                  <span class="space-mono">0.33 ETH</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="discover__banner">
+              <img class="card__banner" src="./assets/img/discover/03.jpg" alt="banner">
+            </div>
+            <div class="card__info">
+              <h5 class="card__title h5">AstroFiction</h5>
+              <div class="card__author">
+                <img class="ava" src="./assets/img/avatars/avatar-15.png" alt="avatar">
+                <span class="space-mono">Spaceone</span>
+              </div>
+              <div class="card__row">
+                <div class="card__price">
+                  <span class="caption gy-text">Price</span>
+                  <span class="space-mono">1.63 ETH</span>
+                </div>
+                <div class="card__bid">
+                  <span class="caption gy-text">Highest Bid</span>
+                  <span class="space-mono">0.33 ETH</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="discover__btn-mb btn-2">
+          <a href="#!">
+            <img class="btn__icon" src="./assets/img/icons/rocketLaunch.svg" alt="icon">
+            View Rankings
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="auction">
+      <div class="container">
+        <div class="auction__row row">
+          <div class="auction__info">
+            <div class="auction__author author bg-second radius">
+              <img class="ava" src="./assets/img/avatars/avatar-07.png" alt="author">
+              <span>Shroomie</span>
+            </div>
+            <h2 class="auction__title h2">Magic Mushrooms</h2>
+            <a href="#!" class="auction__button btn mb-none">
+              <img class="btn__icon" src="./assets/img/auction/eye.svg" alt="button icon">
+              See NFT
+            </a>
+          </div>
+          <div class="auction__timer radius">
+            <p class="caption">Auction ends in:</p>
+            <div class="auction__timer-row row">
+              <div class="auction__timer-item">
+                <h4 class="h4">59</h4>
+                <p class="caption">Hours</p>
+              </div>
+              <h4 class="h4">:</h4>
+              <div class="auction__timer-item">
+                <h4 class="h4">59</h4>
+                <p class="caption">Minutes</p>
+              </div>
+              <h4 class="h4">:</h4>
+              <div class="auction__timer-item">
+                <h4 class="h4">59</h4>
+                <p class="caption">Seconds</p>
+              </div>
+            </div>
+          </div>
+          <a href="#!" class="auction__button auction__button-mb btn">
+            <img class="btn__icon" src="./assets/img/auction/eye.svg" alt="button icon">
+            See NFT
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills pd80">
+      <div class="container">
+        <div class="skills__headline headline mb60">
+          <h3 class="h3">How it works</h3>
+          <p class="body-text">Find out how to get started</p>
+        </div>
+        <div class="skill__cards cards">
+          <div class="skill__card card">
+            <div class="skill__card-banner">
+              <img src="./assets/img/info-cards/01.png" alt="banner">
+            </div>
+            <div class="skill__card-info">
+              <h5 class="skill__card-title h5">Setup Your wallet</h5>
+              <p class="skill__card-text">Set up your wallet of choice. Connect it to the NFT market by clicking the
+                wallet icon in the top right corner.</p>
+            </div>
+          </div>
+          <div class="skill__card card">
+            <div class="skill__card-banner">
+              <img src="./assets/img/info-cards/02.png" alt="banner">
+            </div>
+            <div class="skill__card-info">
+              <h5 class="skill__card-title h5">Create Collection</h5>
+              <p class="skill__card-text">Upload your work and setup your collection. Add a description, social links
+                and floor price.</p>
+            </div>
+          </div>
+          <div class="skill__card card">
+            <div class="skill__card-banner">
+              <img src="./assets/img/info-cards/03.png" alt="banner">
+            </div>
+            <div class="skill__card-info">
+              <h5 class="h5">Start Earning</h5>
+              <p class="skill__card-text">Choose between auctions and fixed-price listings. Start earning by selling
+                your NFTs or trading others.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe pd80">
+      <div class="container">
+        <div class="subscribe__row row bg-second radius">
+          <div class="subscribe__banner">
+            <img class="subscribe__banner-desk radius tab-none" src="./assets/img/subscribe/01.jpg" alt="banner">
+            <img class="subscribe__banner-tab radius mb-none" src="./assets/img/subscribe/01.jpg" alt="banner">
+            <img class="subscribe__banner-mob radius" src="./assets/img/subscribe/01.jpg" alt="banner">
+          </div>
+          <div class="subscribe__info">
+            <h3 class="h3">Join our weekly digest</h3>
+            <p class="body-text">Get exclusive promotions & updates straight to your inbox.</p>
+            <form class="subscribe__form radius">
+              <input class="subscribe__form-input radius" type="email" placeholder="Enter your email here">
+              <a class="subscribe__form-btn btn-3" href="#!">
+                <img class="btn__icon" src="./assets/img/icons/envelopeSimple.svg" alt="email">
+                Subscribe
+              </a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer bg-second">
+    <div class="container">
+      <div class="footer__row row">
+        <div class="footer__hero">
+          <div class="footer__logo">
+            <a href="./index.html">
+              <img src="./assets/img/logo.png" alt="logo">
+            </a>
+          </div>
+          <p class="cc-text">NFT marketplace UI created with Animal for Figma.</p>
+          <p class="cc-text">Join our community</p>
+          <div class="footer__socials">
+            <a href="#!">
+              <img src="./assets/img/icons/discordLogo.svg" alt="social">
+            </a>
+            <a href="#!">
+              <img src="./assets/img/icons/youtubeLogo.svg" alt="social">
+            </a>
+            <a href="#!">
+              <img src="./assets/img/icons/twitterLogo.svg" alt="social">
+            </a>
+            <a href="#!">
+              <img src="./assets/img/icons/instagramLogo.svg" alt="social">
+            </a>
+          </div>
+        </div>
+        <div class="footer__explore">
+          <h6 class="h6">Explore</h6>
+          <ul class="footer__list">
+            <li><a class="cc-text" href="#!">Marketplace</a></li>
+            <li><a class="cc-text" href="#!">Rankings</a></li>
+            <li><a class="cc-text" href="#!">Connect a wallet</a></li>
+          </ul>
+        </div>
+        <div class="footer__subscribe">
+          <div class="footer__subscribe-info">
+            <h6 class="h6">Join our weekly digest</h6>
+            <p class="cc-text">Get exclusive promotions & updates straight to your inbox.</p>
+          </div>
+          <form class="footer__form radius">
+            <input class="footer__form-input radius" type="email" placeholder="Enter your email here">
+            <a class="footer__form-btn btn-3" href="#!">Subscribe</a>
+          </form>
+        </div>
+      </div>
+      <hr class="footer__hr">
+      <div class="footer__bottom">
+        <p class="caption">Ⓒ NFT Market. Use this template freely.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
